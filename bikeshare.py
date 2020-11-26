@@ -174,7 +174,7 @@ def printingDataFrame(dataFrame):
         
         print('\n',dataFrame.iloc[index])
         index +=1
-        # The %5 is for printing 5 elements
+        # The %5 is for printing 5 elements from the dataFrame
         if(index % 5 ==0):
             if 'yes' == input('\nWould you like to print the data? Enter yes or no.\n').lower():
                 continue
