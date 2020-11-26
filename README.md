@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
-
+	November 26th 2020
 ### Project Title
-Replace the Project Title
+	Explore US Bikesshare Data Udacity project
 
 ### Description
-Describe what your project is about and what it does
+	In this project I used python programming language and pandas to do calculation on a large dataset which contains the bikeshare trips details.
 
 ### Files used
-Include the files used
+	washington.csv  new york city.csv  chicago.csv bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+	https://stackoverflow.com/ this website always helps regarding programming project.
 
