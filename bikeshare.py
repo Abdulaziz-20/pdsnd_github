@@ -174,7 +174,11 @@ def printingDataFrame(dataFrame):
         
         print('\n',dataFrame.iloc[index])
         index +=1
+<<<<<<< HEAD
             # The %5 is for printing 5 elements only.
+=======
+        # The %5 is for printing 5 elements from the dataFrame
+>>>>>>> documentation
         if(index % 5 ==0):
             if 'yes' == input('\nWould you like to print the data? Enter yes or no.\n').lower():
                 continue
@@ -184,6 +188,7 @@ def printingDataFrame(dataFrame):
                 break
                 
 def main():
+# This is the main function where it will run the whole code
     while True:
         city, month, day = get_filters()
         dataFrame = load_data(city, month, day)
