@@ -179,6 +179,7 @@ def printingDataFrame(dataFrame):
             if 'yes' == input('\nWould you like to print the data? Enter yes or no.\n').lower():
                 continue
             else:
+            #this prints the total printed users
                 print('The number of printed users= ', index)
                 break
                 
